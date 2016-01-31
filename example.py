@@ -8,4 +8,5 @@ while i < 100:
     end = time.time()
     avg = avg + (end -start)
     i += 1
+avg = avg / 100
 print "The average time taken by my processor to perform an add is %s seconds " %avg   
